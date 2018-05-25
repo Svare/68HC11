@@ -512,7 +512,13 @@ architecture Behavioral of micro68HC11 is
 							when '0' & X"3D0" => -- Codigo 3D 
 								D <= A * B;
 								e_siguiente <= e_presente + 1;
-							when '0' & X"3D1" => 
+								
+							when '0' & X"3D1" => -- Codigo 3D 
+								A <= D(15 downto 8);
+								B <= D(7 downto 0);
+								e_siguiente <= e_presente + 1;
+								
+							when '0' & X"3D2" => 
 															
 								-- Actualiza Bandera N
 								estados(3) <= D(15);
