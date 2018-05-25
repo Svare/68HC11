@@ -2,36 +2,36 @@
 TimeQuest Timing Analyzer Summary
 ------------------------------------------------------------
 
-Type  : Slow 1200mV 85C Model Setup 'sensa_boton:inst2|reloj'
-Slack : -9.906
-TNS   : -893.749
-
 Type  : Slow 1200mV 85C Model Setup 'micro68HC11:inst|nRW'
-Slack : -9.430
-TNS   : -5080.126
+Slack : -8.995
+TNS   : -3750.801
+
+Type  : Slow 1200mV 85C Model Setup 'sensa_boton:inst2|reloj'
+Slack : -7.768
+TNS   : -775.329
 
 Type  : Slow 1200mV 85C Model Setup 'micro68HC11:inst|Dir[0]'
-Slack : -3.449
-TNS   : -2939.345
+Slack : -2.545
+TNS   : -1896.977
 
 Type  : Slow 1200mV 85C Model Setup 'CLK'
-Slack : 0.248
+Slack : 0.242
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'micro68HC11:inst|Dir[0]'
-Slack : -1.288
-TNS   : -30.322
-
-Type  : Slow 1200mV 85C Model Hold 'sensa_boton:inst2|reloj'
-Slack : -0.357
-TNS   : -0.357
-
-Type  : Slow 1200mV 85C Model Hold 'CLK'
-Slack : 0.374
-TNS   : 0.000
+Slack : -1.751
+TNS   : -71.684
 
 Type  : Slow 1200mV 85C Model Hold 'micro68HC11:inst|nRW'
-Slack : 0.402
+Slack : -0.325
+TNS   : -0.354
+
+Type  : Slow 1200mV 85C Model Hold 'sensa_boton:inst2|reloj'
+Slack : -0.267
+TNS   : -0.267
+
+Type  : Slow 1200mV 85C Model Hold 'CLK'
+Slack : 0.376
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLK'
@@ -40,46 +40,46 @@ TNS   : -5.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'sensa_boton:inst2|reloj'
 Slack : -1.000
-TNS   : -133.000
+TNS   : -131.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'micro68HC11:inst|Dir[0]'
-Slack : 0.174
+Slack : 0.206
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'micro68HC11:inst|nRW'
-Slack : 0.259
+Slack : 0.269
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Setup 'sensa_boton:inst2|reloj'
-Slack : -8.878
-TNS   : -792.055
-
 Type  : Slow 1200mV 0C Model Setup 'micro68HC11:inst|nRW'
-Slack : -8.304
-TNS   : -4512.272
+Slack : -7.979
+TNS   : -3309.418
+
+Type  : Slow 1200mV 0C Model Setup 'sensa_boton:inst2|reloj'
+Slack : -6.923
+TNS   : -688.019
 
 Type  : Slow 1200mV 0C Model Setup 'micro68HC11:inst|Dir[0]'
-Slack : -3.098
-TNS   : -2561.245
+Slack : -2.231
+TNS   : -1605.205
 
 Type  : Slow 1200mV 0C Model Setup 'CLK'
-Slack : 0.332
+Slack : 0.327
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'micro68HC11:inst|Dir[0]'
-Slack : -1.090
-TNS   : -19.790
+Slack : -1.521
+TNS   : -55.277
 
 Type  : Slow 1200mV 0C Model Hold 'sensa_boton:inst2|reloj'
-Slack : -0.279
-TNS   : -0.279
-
-Type  : Slow 1200mV 0C Model Hold 'CLK'
-Slack : 0.339
-TNS   : 0.000
+Slack : -0.204
+TNS   : -0.204
 
 Type  : Slow 1200mV 0C Model Hold 'micro68HC11:inst|nRW'
-Slack : 0.494
+Slack : -0.157
+TNS   : -0.157
+
+Type  : Slow 1200mV 0C Model Hold 'CLK'
+Slack : 0.341
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLK'
@@ -88,62 +88,62 @@ TNS   : -5.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'sensa_boton:inst2|reloj'
 Slack : -1.000
-TNS   : -133.000
+TNS   : -131.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'micro68HC11:inst|Dir[0]'
-Slack : 0.305
+Slack : 0.313
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'micro68HC11:inst|nRW'
-Slack : 0.328
+Slack : 0.336
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Setup 'micro68HC11:inst|nRW'
-Slack : -5.397
-TNS   : -2522.672
+Slack : -5.168
+TNS   : -1778.673
 
 Type  : Fast 1200mV 0C Model Setup 'sensa_boton:inst2|reloj'
-Slack : -5.156
-TNS   : -450.691
+Slack : -3.958
+TNS   : -376.186
 
 Type  : Fast 1200mV 0C Model Setup 'micro68HC11:inst|Dir[0]'
-Slack : -1.813
-TNS   : -1168.265
+Slack : -1.290
+TNS   : -595.309
 
 Type  : Fast 1200mV 0C Model Setup 'CLK'
-Slack : 0.579
+Slack : 0.574
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'micro68HC11:inst|Dir[0]'
-Slack : -0.856
-TNS   : -23.449
+Slack : -1.142
+TNS   : -51.139
 
 Type  : Fast 1200mV 0C Model Hold 'sensa_boton:inst2|reloj'
-Slack : -0.294
-TNS   : -0.294
-
-Type  : Fast 1200mV 0C Model Hold 'CLK'
-Slack : 0.194
-TNS   : 0.000
+Slack : -0.241
+TNS   : -0.346
 
 Type  : Fast 1200mV 0C Model Hold 'micro68HC11:inst|nRW'
-Slack : 0.290
+Slack : -0.123
+TNS   : -0.123
+
+Type  : Fast 1200mV 0C Model Hold 'CLK'
+Slack : 0.196
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLK'
 Slack : -3.000
-TNS   : -5.112
+TNS   : -5.108
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'sensa_boton:inst2|reloj'
 Slack : -1.000
-TNS   : -133.000
+TNS   : -131.000
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'micro68HC11:inst|Dir[0]'
-Slack : 0.101
+Slack : 0.130
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'micro68HC11:inst|nRW'
-Slack : 0.209
+Slack : 0.237
 TNS   : 0.000
 
 ------------------------------------------------------------

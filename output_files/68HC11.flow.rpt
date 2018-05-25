@@ -1,5 +1,5 @@
 Flow report for 68HC11
-Thu May 24 20:58:06 2018
+Thu May 24 22:46:28 2018
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -40,17 +40,17 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Thu May 24 20:57:58 2018           ;
+; Flow Status                        ; Successful - Thu May 24 22:46:22 2018           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; 68HC11                                          ;
 ; Top-level Entity Name              ; 68HC11                                          ;
 ; Family                             ; Cyclone IV E                                    ;
 ; Device                             ; EP4CE22F17C6                                    ;
 ; Timing Models                      ; Final                                           ;
-; Total logic elements               ; 3,825 / 22,320 ( 17 % )                         ;
-;     Total combinational functions  ; 3,820 / 22,320 ( 17 % )                         ;
-;     Dedicated logic registers      ; 135 / 22,320 ( < 1 % )                          ;
-; Total registers                    ; 135                                             ;
+; Total logic elements               ; 3,847 / 22,320 ( 17 % )                         ;
+;     Total combinational functions  ; 3,843 / 22,320 ( 17 % )                         ;
+;     Dedicated logic registers      ; 133 / 22,320 ( < 1 % )                          ;
+; Total registers                    ; 133                                             ;
 ; Total pins                         ; 15 / 154 ( 10 % )                               ;
 ; Total virtual pins                 ; 0                                               ;
 ; Total memory bits                  ; 0 / 608,256 ( 0 % )                             ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 05/24/2018 20:56:21 ;
+; Start date & time ; 05/24/2018 22:44:52 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; 68HC11              ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +-------------------------------------+--------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                          ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+--------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 93328253596183.152721338111832 ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 93328253596183.152721989215992 ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                             ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                              ; --            ; --          ; --         ;
 ; PARTITION_COLOR                     ; 16764057                       ; --            ; --          ; Top        ;
@@ -90,11 +90,11 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:45     ; 1.0                     ; 544 MB              ; 00:00:40                           ;
-; Fitter                    ; 00:00:45     ; 1.0                     ; 847 MB              ; 00:00:40                           ;
-; Assembler                 ; 00:00:03     ; 1.0                     ; 465 MB              ; 00:00:02                           ;
-; TimeQuest Timing Analyzer ; 00:00:06     ; 1.0                     ; 583 MB              ; 00:00:05                           ;
-; Total                     ; 00:01:39     ; --                      ; --                  ; 00:01:27                           ;
+; Analysis & Synthesis      ; 00:00:46     ; 1.0                     ; 552 MB              ; 00:00:46                           ;
+; Fitter                    ; 00:00:39     ; 1.0                     ; 840 MB              ; 00:00:38                           ;
+; Assembler                 ; 00:00:02     ; 1.0                     ; 461 MB              ; 00:00:02                           ;
+; TimeQuest Timing Analyzer ; 00:00:06     ; 1.0                     ; 564 MB              ; 00:00:05                           ;
+; Total                     ; 00:01:33     ; --                      ; --                  ; 00:01:31                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

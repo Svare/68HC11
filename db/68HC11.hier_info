@@ -7,13 +7,13 @@ DEBUG[4] <= debugMultiplexer:inst3.OUTPUT[4]
 DEBUG[5] <= debugMultiplexer:inst3.OUTPUT[5]
 DEBUG[6] <= debugMultiplexer:inst3.OUTPUT[6]
 DEBUG[7] <= debugMultiplexer:inst3.OUTPUT[7]
-BOTON => sensa_boton:inst2.boton
+BOTON => inst4.IN0
 CLK => sensa_boton:inst2.clk
-nIRQ => micro68HC11:inst.nIRQ
 nXIRQ => micro68HC11:inst.nXIRQ
 SEL[0] => debugMultiplexer:inst3.SEL[0]
 SEL[1] => debugMultiplexer:inst3.SEL[1]
 SEL[2] => debugMultiplexer:inst3.SEL[2]
+nIRQ => ~NO_FANOUT~
 
 
 |68HC11|debugMultiplexer:inst3
